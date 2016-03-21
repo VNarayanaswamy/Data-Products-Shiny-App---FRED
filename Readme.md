@@ -1,0 +1,1 @@
+This is a very simple prototype of a tool that exploits a function for downloading data series into R from the St. Louis Federal Reserve's FRED economic database. Simply select the description of the data series you want in the dropdown menu on the right, and the last ten observations will appear in table form on the right.
