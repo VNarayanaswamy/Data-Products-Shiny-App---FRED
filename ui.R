@@ -3,7 +3,10 @@ library(shiny)
 shinyUI(fluidPage(
   
   titlePanel("FRED data test of concept"),
-  h5("Last ten observations of series downloaded from the FRED economic database"),
+  br("Last ten observations of series downloaded from the FRED economic database.",
+     "server.R and ui.R code can also be found here:"),
+  a(href="https://github.com/Violet-Knight/Data-Products-Shiny-App---FRED",
+    "https://github.com/Violet-Knight/Data-Products-Shiny-App---FRED"),
   
   sidebarLayout(
     sidebarPanel(
